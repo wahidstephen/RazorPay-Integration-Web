@@ -1,0 +1,107 @@
+.App {
+  font: normal normal normal 18px/22px Lato;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.App-header {
+  top: 0px;
+  left: -0.5px;
+  height: 106px;
+  color: #707070;
+  background: #F4F4F4 0% 0% no-repeat padding-box;
+}
+
+.App-logo {
+  top: 42px;
+  left: 37px;
+  width: 138px;
+  height: 27px;
+  position: relative;
+  font-size: x-large;
+  font-weight: bolder;
+  letter-spacing: 8px !important;
+}
+
+.header-toolbar {
+  top: 17px;
+  position: relative;
+  float: right;
+  margin-right: 2%;
+  width: 150px;
+  display: inline-flex;
+}
+
+.header-svgs {
+  width: 23px;
+  height: 23px;
+  margin-right: 10%;
+  cursor: pointer;
+}
+
+.profile-pic {
+  position: relative;
+  bottom: 20px;
+  width: 59px;
+  height: 59px;
+  cursor: pointer;
+  background: transparent url('./assets/Oval.png') 0% 0% no-repeat padding-box;
+}
+
+/* The sidebar menu */
+
+.sidenav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 230px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  top: 110px;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  left: 0;
+  background-color: #ffffff;
+  /* White */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+  border-right: 3px solid #F4F4F4;
+}
+
+.sidenav-divs {
+  left: -0.5px;
+  width: 265px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+}
+
+.sidenav-svg-icons {
+  left: 29px;
+  width: 28px;
+  height: 25px;
+  position: relative;
+}
+
+.sidenav-span {
+  left: 50px;
+  width: 120px;
+  height: 22px;
+  position: relative;
+  cursor: pointer;
+}
+
+.payments-div {
+  position: relative;
+  margin: auto;
+  max-width: 20%;
+  left: 5%;
+  text-align: center;
+  /* width: 1500px; */
+}
+
+.submit-button {
+  margin-top: 7% !important;
+  width: 70% !important;
+}
