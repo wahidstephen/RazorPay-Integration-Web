@@ -19,7 +19,7 @@ Server is now listening on [http://localhost:8000](http://localhost:8000).
 
 ## How to run the client code (React.JS)
 
-**n the project directory, open a new terminal session and you can run:**
+**In the project directory, open a new terminal session and you can run:**
 
 ### `cd rzrpay-client`
 
