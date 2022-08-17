@@ -27,13 +27,13 @@ class Payment extends React.Component {
             this.setState({ alertFailure: true })
             return;
         }
-        const API_URL = 'http://localhost:8000'
+        const API_URL = process.env.REACT_APP_API_BASE_URL
         e.preventDefault();
         const orderUrl = `${API_URL}/order/${this.state.amount}`;
         const response = await Axios.get(orderUrl);
         const { data } = response;
         const options = {
-            key: "rzp_test_Baj0ZJ8G2mlZZy",
+            key: process.env.REACT_APP_RAZOR_PAY_KEY_ID,
             name: "Level App",
             description: "Sample payment",
             order_id: data.id,

@@ -6,8 +6,8 @@ const app = express();
 app.use(cors());
 
 const config = {
-    RAZOR_PAY_KEY_ID: "rzp_test_Baj0ZJ8G2mlZZy",
-    RAZOR_PAY_KEY_SECRET: "mvILpY5Z5m7tCEHJgqu16EKR"
+    RAZOR_PAY_KEY_ID: process.env.RAZOR_PAY_KEY_ID,
+    RAZOR_PAY_KEY_SECRET: process.env.RAZOR_PAY_KEY_SECRET
 }
 
 app.listen(8000, () => {

@@ -12,9 +12,15 @@ Goes to the path of the Node.JS code.
 
 Installs the required modules for the Node.JS code.
 
+### `touch .env`
+
+Create an env file populating the following secrets required for RazorPay:
+**`RAZOR_PAY_KEY_ID`**
+**`RAZOR_PAY_KEY_SECRET`** 
+
 ### `node server.js`
 
-Runs the server in the development mode on port 8000.<br />
+Runs the server in the development mode on port 8000.
 Server is now listening on [http://localhost:8000](http://localhost:8000).
 
 ## How to run the client code (React.JS)
@@ -27,12 +33,18 @@ Goes to the path of the React.JS code.
 
 ### `npm install`
 
-Installs the required modules for the React.JS code. 
+Installs the required modules for the React.JS code.
+
+### `touch .env`
+
+Create an env file populating the following secrets required for the React app:
+**`REACT_APP_API_BASE_URL = http://localhost:8000`**
+**`REACT_APP_RAZOR_PAY_KEY_ID`** 
 
 ### `npm start`
 
 Runs the React app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:8000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## How to use the React App to test the RazorPay integration
 
@@ -44,4 +56,4 @@ The React app uses routing to route to the payments component
 
 This should redirect you to the Razorpay payment checkout. Appropriate validations and alerts on `success` and `failure` responses are implemented as well.
 
-# rzrpay-integration
+# RazorPay-Integration-Web
