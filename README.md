@@ -14,13 +14,13 @@ Installs the required modules for the Node.JS code.
 
 ### `touch .env`
 
-Create an env file populating the following secrets required for RazorPay:
-**`RAZOR_PAY_KEY_ID`**
+Create an env file populating the following secrets required for RazorPay:<br/>
+**`RAZOR_PAY_KEY_ID`**<br/>
 **`RAZOR_PAY_KEY_SECRET`** 
 
 ### `node server.js`
 
-Runs the server in the development mode on port 8000.
+Runs the server in the development mode on port 8000.<br/>
 Server is now listening on [http://localhost:8000](http://localhost:8000).
 
 ## How to run the client code (React.JS)
@@ -37,13 +37,13 @@ Installs the required modules for the React.JS code.
 
 ### `touch .env`
 
-Create an env file populating the following secrets required for the React app:
-**`REACT_APP_API_BASE_URL = http://localhost:8000`**
+Create an env file populating the following secrets required for the React app:<br/>
+**`REACT_APP_API_BASE_URL = http://localhost:8000`**<br/>
 **`REACT_APP_RAZOR_PAY_KEY_ID`** 
 
 ### `npm start`
 
-Runs the React app in the development mode.<br />
+Runs the React app in the development mode.<br/>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## How to use the React App to test the RazorPay integration
